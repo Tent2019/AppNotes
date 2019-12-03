@@ -1,0 +1,27 @@
+.addNote{
+    border: 0px solid; width: 350px;    
+    padding: 5px 0px; margin-bottom: 20px;
+    background-color: #0000cc;
+    text-align: center; color: white;
+}
+.fillInFrame{
+    display: grid;   
+    grid-template-columns: 110px auto;        
+}
+.fillInFrame span{
+ padding: 0px 10px;    
+}
+
+.fillInFrame input{
+    width: 200px;
+}
+.fillInFrame textarea{
+    width: 198px; height: 60px;
+}
+.buttonFrame{
+    border: 0px solid;
+    background-color: #0000cc;
+    display: flex; justify-content: center;
+    width: 100%;
+    margin-bottom: 0px;
+}
